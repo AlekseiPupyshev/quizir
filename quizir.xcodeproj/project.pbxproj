@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443540371B695ED6003BD503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443540361B695ED6003BD503 /* main.m */; };
+		4435403A1B695ED6003BD503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443540391B695ED6003BD503 /* AppDelegate.m */; };
+		4435403D1B695ED6003BD503 /* quizir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4435403B1B695ED6003BD503 /* quizir.xcdatamodeld */; };
+		443540401B695ED6003BD503 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4435403F1B695ED6003BD503 /* ViewController.m */; };
+		443540431B695ED6003BD503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443540411B695ED6003BD503 /* Main.storyboard */; };
+		443540451B695ED6003BD503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443540441B695ED6003BD503 /* Images.xcassets */; };
+		443540481B695ED6003BD503 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443540461B695ED6003BD503 /* LaunchScreen.xib */; };
+		443540541B695ED6003BD503 /* quizirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443540531B695ED6003BD503 /* quizirTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4435404E1B695ED6003BD503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 443540291B695ED6003BD503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443540301B695ED6003BD503;
+			remoteInfo = quizir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		443540311B695ED6003BD503 /* quizir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		443540351B695ED6003BD503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443540361B695ED6003BD503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		443540381B695ED6003BD503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		443540391B695ED6003BD503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4435403C1B695ED6003BD503 /* quizir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = quizir.xcdatamodel; sourceTree = "<group>"; };
+		4435403E1B695ED6003BD503 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4435403F1B695ED6003BD503 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		443540421B695ED6003BD503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		443540441B695ED6003BD503 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		443540471B695ED6003BD503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4435404D1B695ED6003BD503 /* quizirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quizirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		443540521B695ED6003BD503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443540531B695ED6003BD503 /* quizirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quizirTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4435402E1B695ED6003BD503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4435404A1B695ED6003BD503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443540281B695ED6003BD503 = {
+			isa = PBXGroup;
+			children = (
+				443540331B695ED6003BD503 /* quizir */,
+				443540501B695ED6003BD503 /* quizirTests */,
+				443540321B695ED6003BD503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		443540321B695ED6003BD503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443540311B695ED6003BD503 /* quizir.app */,
+				4435404D1B695ED6003BD503 /* quizirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		443540331B695ED6003BD503 /* quizir */ = {
+			isa = PBXGroup;
+			children = (
+				443540381B695ED6003BD503 /* AppDelegate.h */,
+				443540391B695ED6003BD503 /* AppDelegate.m */,
+				4435403E1B695ED6003BD503 /* ViewController.h */,
+				4435403F1B695ED6003BD503 /* ViewController.m */,
+				443540411B695ED6003BD503 /* Main.storyboard */,
+				443540441B695ED6003BD503 /* Images.xcassets */,
+				443540461B695ED6003BD503 /* LaunchScreen.xib */,
+				4435403B1B695ED6003BD503 /* quizir.xcdatamodeld */,
+				443540341B695ED6003BD503 /* Supporting Files */,
+			);
+			path = quizir;
+			sourceTree = "<group>";
+		};
+		443540341B695ED6003BD503 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				443540351B695ED6003BD503 /* Info.plist */,
+				443540361B695ED6003BD503 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		443540501B695ED6003BD503 /* quizirTests */ = {
+			isa = PBXGroup;
+			children = (
+				443540531B695ED6003BD503 /* quizirTests.m */,
+				443540511B695ED6003BD503 /* Supporting Files */,
+			);
+			path = quizirTests;
+			sourceTree = "<group>";
+		};
+		443540511B695ED6003BD503 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				443540521B695ED6003BD503 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		443540301B695ED6003BD503 /* quizir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443540571B695ED6003BD503 /* Build configuration list for PBXNativeTarget "quizir" */;
+			buildPhases = (
+				4435402D1B695ED6003BD503 /* Sources */,
+				4435402E1B695ED6003BD503 /* Frameworks */,
+				4435402F1B695ED6003BD503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quizir;
+			productName = quizir;
+			productReference = 443540311B695ED6003BD503 /* quizir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4435404C1B695ED6003BD503 /* quizirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4435405A1B695ED6003BD503 /* Build configuration list for PBXNativeTarget "quizirTests" */;
+			buildPhases = (
+				443540491B695ED6003BD503 /* Sources */,
+				4435404A1B695ED6003BD503 /* Frameworks */,
+				4435404B1B695ED6003BD503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4435404F1B695ED6003BD503 /* PBXTargetDependency */,
+			);
+			name = quizirTests;
+			productName = quizirTests;
+			productReference = 4435404D1B695ED6003BD503 /* quizirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		443540291B695ED6003BD503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Alexey Pupyshev";
+				TargetAttributes = {
+					443540301B695ED6003BD503 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4435404C1B695ED6003BD503 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 443540301B695ED6003BD503;
+					};
+				};
+			};
+			buildConfigurationList = 4435402C1B695ED6003BD503 /* Build configuration list for PBXProject "quizir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 443540281B695ED6003BD503;
+			productRefGroup = 443540321B695ED6003BD503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				443540301B695ED6003BD503 /* quizir */,
+				4435404C1B695ED6003BD503 /* quizirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4435402F1B695ED6003BD503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443540431B695ED6003BD503 /* Main.storyboard in Resources */,
+				443540481B695ED6003BD503 /* LaunchScreen.xib in Resources */,
+				443540451B695ED6003BD503 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4435404B1B695ED6003BD503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4435402D1B695ED6003BD503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4435403A1B695ED6003BD503 /* AppDelegate.m in Sources */,
+				443540371B695ED6003BD503 /* main.m in Sources */,
+				443540401B695ED6003BD503 /* ViewController.m in Sources */,
+				4435403D1B695ED6003BD503 /* quizir.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443540491B695ED6003BD503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443540541B695ED6003BD503 /* quizirTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4435404F1B695ED6003BD503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 443540301B695ED6003BD503 /* quizir */;
+			targetProxy = 4435404E1B695ED6003BD503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		443540411B695ED6003BD503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443540421B695ED6003BD503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		443540461B695ED6003BD503 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443540471B695ED6003BD503 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		443540551B695ED6003BD503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		443540561B695ED6003BD503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		443540581B695ED6003BD503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = quizir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		443540591B695ED6003BD503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = quizir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4435405B1B695ED6003BD503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = quizirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quizir.app/quizir";
+			};
+			name = Debug;
+		};
+		4435405C1B695ED6003BD503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = quizirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quizir.app/quizir";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4435402C1B695ED6003BD503 /* Build configuration list for PBXProject "quizir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443540551B695ED6003BD503 /* Debug */,
+				443540561B695ED6003BD503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443540571B695ED6003BD503 /* Build configuration list for PBXNativeTarget "quizir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443540581B695ED6003BD503 /* Debug */,
+				443540591B695ED6003BD503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4435405A1B695ED6003BD503 /* Build configuration list for PBXNativeTarget "quizirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4435405B1B695ED6003BD503 /* Debug */,
+				4435405C1B695ED6003BD503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4435403B1B695ED6003BD503 /* quizir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4435403C1B695ED6003BD503 /* quizir.xcdatamodel */,
+			);
+			currentVersion = 4435403C1B695ED6003BD503 /* quizir.xcdatamodel */;
+			path = quizir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 443540291B695ED6003BD503 /* Project object */;
+}
